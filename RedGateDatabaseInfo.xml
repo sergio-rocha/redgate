@@ -5,7 +5,7 @@
   <DefaultSchema>dbo</DefaultSchema>
   <DefaultUser>dbo</DefaultUser>
   <DefaultFilegroup>PRIMARY</DefaultFilegroup>
-  <DatabaseVersion>11</DatabaseVersion>
+  <DatabaseVersion>12</DatabaseVersion>
   <IsAzure>False</IsAzure>
   <MaxDataFileSize>10485760</MaxDataFileSize>
   <WriteToFileOptions>
@@ -57,6 +57,7 @@
     <DataWriteAllFilesInOneDirectory>True</DataWriteAllFilesInOneDirectory>
   </WriteToFileOptions>
   <DataFileSet>
-    <Count>0</Count>
+    <Count>1</Count>
+    <DataFile>dbo.Maestro_Data.sql</DataFile>
   </DataFileSet>
 </DatabaseInformation>
